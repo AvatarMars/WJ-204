@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4C00F51F-8419-935C-F1A0-5E407456F98C}</ProjectGuid>
+    <ProjectGuid>{7A765073-5A26-D4CD-E0B8-8046C5CD8D2F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Editor</AssemblyName>
@@ -53,45 +53,45 @@
     <UnityVersion>2020.3.4f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridSelection.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPalettes.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileUtility.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridBrushEditorBase.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\TilemapEditorTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\PaintTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPalettesDropdown.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintSortingAttribute.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\SceneViewOpenTilePaletteHelper.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TilemapPrefabStageHelper.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileDragAndDrop.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\BoxTool.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\PaintableGrid.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridSelectionEditor.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\AssemblyInfo.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteEditor.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridBrushEditor.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\ObjectCreationMenu\GameObjectCreation.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridSelection.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\TilemapEditorTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPalettes.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintingState.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintPaletteWindow.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridSelectionEditor.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteUtility.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\MoveTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\PaintTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileDragAndDropManager.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\FillTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPalettesDropdown.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\CreateTileFromPaletteAttribute.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteAddPopup.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\SelectTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\EraseTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\ObjectCreationMenu\DefaultAssetCreation.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintTargetsDropdown.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\PickingTool.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridEditorUtility.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\SceneViewGridManager.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\AssemblyInfo.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridBrush.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintPaletteClipboard.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintPaletteWindowPreferences.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteBrushes.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileUtility.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\PickingTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\SceneViewGridManager.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridBrushesDropdown.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\ObjectCreationMenu\DefaultAssetCreation.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteEditor.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteUtility.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\BoxTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintTargetsDropdown.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TilemapPrefabStageHelper.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\CreateTileFromPaletteAttribute.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintSortingAttribute.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\FillTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\EraseTool.cs" />
     <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\PaintableSceneViewGrid.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintPaletteClipboard.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridEditorUtility.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileDragAndDrop.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintingState.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\SelectTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaintPaletteWindow.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\EditorTools\MoveTool.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\TileDragAndDropManager.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridPaletteAddPopup.cs" />
-    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\SceneViewOpenTilePaletteHelper.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\ObjectCreationMenu\GameObjectCreation.cs" />
+    <Compile Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\GridBrushesDropdown.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="C:\Users\Mark\Documents\2020.3.4f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.2d.tilemap\Editor\Unity.2D.Tilemap.Editor.asmdef" />
@@ -698,19 +698,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{44C6DA6B-0C28-23A8-A36D-A3B51804D900}</Project>
+      <Project>{9F1959FA-F3F3-EA4C-7DEE-007239B18635}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{649AA1E2-814B-EFEE-7229-5F4302E4857F}</Project>
+      <Project>{DF7BBCD5-A698-25AB-B4AE-B7692580EB32}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{1BC54751-CA4C-FDB4-0A75-5B39D3AD6C0E}</Project>
+      <Project>{F1D280C8-5BD4-C83D-58E6-B45E033294EF}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{2C67C361-2BE1-8FB1-893C-45061C410B28}</Project>
+      <Project>{9D575413-C37D-DD74-D729-350B8F9D9778}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
